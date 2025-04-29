@@ -8,7 +8,7 @@ import axios from 'axios';
 
 const SearchBar = ({ setCity, setCurrentWeather, setForecast, setError, setLoading, setDate }) => {
   const [searchCity, setSearchCity] = useState('');
-  const API_KEY = '037bb41b2e48484bb26fbbb9131f0526';
+  const API_KEY = 'your-api-key';
 
   const handleCityChange = (event) => {
     setSearchCity(event.target.value);
